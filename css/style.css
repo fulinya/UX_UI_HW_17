@@ -1,0 +1,129 @@
+/* Navigation styles */
+.logo {
+    background: white;
+    height: 140px;
+    background-image: url("../images/fulya-logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .nav {
+    display: flex;
+    background-color: black;
+    padding: 20px;
+  }
+  
+  .left, .center, .right {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .left, .right {
+    width: 25%;
+  }
+  .center {
+    width: 90%;
+  }
+  
+  .center a {
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family:arial;
+  }
+  
+  .right button {
+    background-color: whitesmoke;
+    color:black;
+    font-size: 16px;
+    padding: 15px;
+    width: 50%;
+  }
+  
+
+  /* Column styles */
+  .column {
+    display: flex;
+    height: 1200px;
+    width: 800px;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  
+  .project1, .project2, .project3 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+  }
+  .project1 {
+    margin-top:20px;
+    background-image: url("../images/nsure.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .project2 {
+    background-image: url("../images/tresor.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .project3 {
+    background-image: url("../images/royal.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .text {
+    background: rgb(0,0,0,0.7);
+    width: 30%;
+    padding: 20px 40px;
+    color: white;
+  }
+  .text p {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .text h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    height: 100px;
+  }
+  
+  .footer a {
+    padding: 20px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  }
+  
+  .ig {
+    color: whitesmoke;
+  }
+  
+  .fb {
+    color:whitesmoke;
+  }
+  
+  .tw {
+    color: whitesmoke;
+  }
+  
+  .ld {
+    color: whitesmoke;
+  }
+
+  .cp {
+    color: whitesmoke;
+  }
+
+  
